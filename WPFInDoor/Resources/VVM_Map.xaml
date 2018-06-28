@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:mainw ="clr-namespace:WPFInDoor"
+                    xmlns:VM="clr-namespace:WPFInDoor.ViewModels"
+                    xmlns:V="clr-namespace:WPFInDoor.View"
+                    xmlns:local="clr-namespace:WPFInDoor.Resources">
+
+    <DataTemplate DataType="{x:Type VM:MainWindowViewModel}">
+        <mainw:MainWindow></mainw:MainWindow>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type VM:CanvasViewModel}">
+        <V:CanvasView></V:CanvasView>
+    </DataTemplate>
+</ResourceDictionary>
