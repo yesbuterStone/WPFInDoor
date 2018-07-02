@@ -19,3 +19,6 @@ C:\workplace\WPFInDoor\WPFInDoor\obj\Debug\WPFInDoor.exe
 C:\workplace\WPFInDoor\WPFInDoor\obj\Debug\WPFInDoor.pdb
 C:\workplace\WPFInDoor\WPFInDoor\obj\Debug\View\CanvasView.g.cs
 C:\workplace\WPFInDoor\WPFInDoor\obj\Debug\View\CanvasView.baml
+C:\workplace\WPFInDoor\WPFInDoor\obj\Debug\View\GridShowView.g.cs
+C:\workplace\WPFInDoor\WPFInDoor\obj\Debug\View\GridShowView.baml
+C:\workplace\WPFInDoor\WPFInDoor\obj\Debug\Resources\Dictionary_Style.baml

@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFInDoor"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="500" Width="525">
     <StackPanel Orientation="Horizontal">
-        <ContentControl Content="{Binding helloWord}"></ContentControl>
+        <ContentControl Content="{Binding GridShow}"  Height="450" Width="500"></ContentControl>
     </StackPanel>
 </Window>

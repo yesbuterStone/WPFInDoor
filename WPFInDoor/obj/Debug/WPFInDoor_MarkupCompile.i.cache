@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\workplace\WPFInDoor\WPFInDoor\App.xaml
-3-574180373
+5716223429
 
-12-846270137
+14-1276432679
 14-2127280075
-MainWindow.xaml;Resources\VVM_Map.xaml;View\CanvasView.xaml;
+MainWindow.xaml;Resources\Dictionary_Style.xaml;Resources\VVM_Map.xaml;View\CanvasView.xaml;View\GridShowView.xaml;
 
-True
+False
 

@@ -9,11 +9,24 @@ namespace WPFInDoor.ViewModels
     public class MainWindowViewModel
     {
         CanvasViewModel _helloWorld;
+        GridShowViewModel _GridShow;
         public MainWindowViewModel()
         {
             _helloWorld = new CanvasViewModel();
+            _GridShow = new GridShowViewModel();
         }
 
+        public GridShowViewModel GridShow
+        {
+            get
+            {
+                return _GridShow;
+            }
+            set
+            {
+                _GridShow = value;
+            }
+        }
 
         public CanvasViewModel helloWord
         {
@@ -23,7 +36,7 @@ namespace WPFInDoor.ViewModels
             } 
             set
             {
-                _helloWorld = helloWord;
+                _helloWorld = value;
             }
         }
     }

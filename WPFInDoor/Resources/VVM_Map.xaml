@@ -11,4 +11,7 @@
     <DataTemplate DataType="{x:Type VM:CanvasViewModel}">
         <V:CanvasView></V:CanvasView>
     </DataTemplate>
+    <DataTemplate DataType="{x:Type VM:GridShowViewModel}">
+        <V:GridShowView></V:GridShowView>
+    </DataTemplate>
 </ResourceDictionary>
