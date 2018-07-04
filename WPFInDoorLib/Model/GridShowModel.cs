@@ -11,7 +11,7 @@ namespace WPFInDoorLib
 {
     public class GridShowModel : DependencyObject
     {
-
+        
         public GridShowModel(double panelW, double panelH)
         {
             PanelW = panelW;

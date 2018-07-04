@@ -2,3 +2,4 @@ C:\workplace\WPFInDoor\WPFInDoorLib\bin\Debug\WPFInDoorLib.dll
 C:\workplace\WPFInDoor\WPFInDoorLib\bin\Debug\WPFInDoorLib.pdb
 C:\workplace\WPFInDoor\WPFInDoorLib\obj\Debug\WPFInDoorLib.dll
 C:\workplace\WPFInDoor\WPFInDoorLib\obj\Debug\WPFInDoorLib.pdb
+C:\workplace\WPFInDoor\WPFInDoorLib\obj\Debug\WPFInDoorLib.csprojResolveAssemblyReference.cache

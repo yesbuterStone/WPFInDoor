@@ -5,4 +5,6 @@
  
     <SolidColorBrush x:Key="CanvasColor_yellow">#5E5E5E</SolidColorBrush>
     <SolidColorBrush x:Key="CanvasColor">Yellow</SolidColorBrush>
+
+   
 </ResourceDictionary>

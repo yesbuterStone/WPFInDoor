@@ -4,9 +4,23 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WPFInDoor.View"
-             mc:Ignorable="d" 
-            >
+             xmlns:LibUnitity ="clr-namespace:WPFInDoorLib.Unitity;assembly=WPFInDoorLib"
+             xmlns:vm ="clr-namespace:WPFInDoor.ViewModels"
+             mc:Ignorable="d" >
+    <UserControl.Resources>
+        <DataTemplate x:Key = "ButtonTemplate">
+            <Button Width = "100" Height = "30" Command = "{Binding execute}"/>
+        </DataTemplate >
+        <DataTemplate x:Key = "CheckBoxTemplate">
+            <CheckBox IsChecked = "True" Command = "{Binding execute}"/>
+        </DataTemplate >
+
+        <LibUnitity:TemplateSelector x:Key = "ItemTemplateSelector" ButtonTemplate = "{StaticResource ButtonTemplate}"  CheckBoxTemplate = "{StaticResource CheckBoxTemplate}"/>
+    </UserControl.Resources>
+    
+    
     <StackPanel Width="{Binding gridShowModel.PanelW}" Height="{Binding gridShowModel.PanelH}" Background="{StaticResource ResourceKey=CanvasColor_yellow}">
-        <!--<Button Width=" 40" Height="40"></Button>-->
+        <ListBox ItemsSource="{Binding ItemList}" ItemTemplateSelector="{StaticResource ItemTemplateSelector}"></ListBox>
+        
     </StackPanel>
 </UserControl>
